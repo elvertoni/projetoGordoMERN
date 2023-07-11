@@ -1,0 +1,71 @@
+.container-ImgCadastro {
+    width: 100%;
+    min-height: 80vh;
+    background: rgb(214, 29, 29);
+    background: radial-gradient(circle, rgba(214, 29, 29, 0.9486169467787114) 9%, rgba(14, 13, 13, 0.7553396358543417) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-rowCadastro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.image-rowCadastro div {
+    flex-basis: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image-checkbox {
+    display: none;
+}
+
+.image-checkbox:checked+label img {
+    border: 5px solid rgb(195, 0, 255);
+}
+
+.image-checkbox+label img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.Avatar-buttonAvatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Avatar-buttonAvatar button {
+
+
+    background-color: #f24848f1;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid rgb(190, 7, 7);
+
+}
+
+.Avatar-buttonAvatar button:hover {
+    background-color: #e2250c;
+    border: 2px solid #fff;
+}
+
+.Avatar-buttonAvatar button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}

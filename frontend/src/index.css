@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+
+
+a,
+h1,
+h2,
+h3,
+ul,
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  margin: 0;
+  background: url(https://wallpapercave.com/wp/wp7051632.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+nav {
+  grid-area: nav;
+  background-color: #b8ddfb;
+  min-height: 10vh;
+}
+
+main {
+  grid-area: main;
+  background-color: #fff;
+  min-height: 80vh;
+}
+
+footer {
+  grid-area: footer;
+  height: 10vh;
+  background: #13131a;
+}
+
+.FooterText {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}

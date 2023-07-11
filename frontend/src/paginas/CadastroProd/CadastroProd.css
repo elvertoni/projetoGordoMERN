@@ -1,0 +1,134 @@
+.containerCadProd {
+
+    display: flex;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background: linear-gradient(180deg,
+            rgb(200, 189, 189) 20%,
+            rgba(180, 12, 12, 0.885) 50%,
+            rgba(41, 1, 1, 0.907) 80%);
+
+}
+
+.iconCadProd {
+    animation: rainbow 19s infinite;
+}
+
+
+
+
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+
+    14% {
+        color: orange;
+    }
+
+    28% {
+        color: yellow;
+    }
+
+    42% {
+        color: green;
+    }
+
+    57% {
+        color: blue;
+    }
+
+    71% {
+        color: indigo;
+    }
+
+    85% {
+        color: violet;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+
+.input-boxCadPro input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.input-boxCadPro label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #000000c0;
+    text-align: center;
+}
+
+.input-boxCadPro input::placeholder {
+    color: #000000be;
+}
+
+
+.cardCadProd {
+    width: 35%;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: -1px 4px 60px 11px rgba(0, 0, 0, 0.89);
+    overflow-y: auto;
+}
+
+.cabecalhoCadProd {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-groupCadProd {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-boxCadPro {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.centralizeButton {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.buttonCadProd {
+    border: none;
+    background-color: #ff3c00;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonCadProd {
+
+    display: inline-block;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.buttonCadProd .button-link {
+    color: inherit;
+    text-decoration: none;
+}

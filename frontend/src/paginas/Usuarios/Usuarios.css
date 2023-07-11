@@ -1,0 +1,257 @@
+.containerUser {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 80vh;
+    flex-basis: 100/3;
+    row-gap: 15px;
+    padding: 10px;
+    background: linear-gradient(180deg,
+            rgb(200, 189, 189) 20%,
+            rgba(180, 12, 12, 0.885) 50%,
+            rgba(41, 1, 1, 0.907) 80%);
+
+
+}
+
+.cardUser {
+    width: 25rem;
+    height: 400px;
+    background-color: #202020;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.imgUser {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.imag-iconUser {
+    border: 2px solid rgb(24, 74, 212);
+    height: 9.375rem;
+    width: 9.375rem;
+    border-radius: 50%;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.imag-iconUser:hover {
+    border: 3px solid rgb(2, 199, 248);
+}
+
+.itemNomeUser {
+    color: firebrick;
+    font-size: 1.4rem;
+}
+
+
+.textoUser {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.buttonInUser {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.btnUser1,
+.btnUser2 {
+    padding: 10px 30px;
+    font-family: Impact,
+        Haettenschweiler,
+        'Arial Narrow Bold',
+        sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    transition: 1s;
+    background-color: rgb(233, 113, 113);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnUser1:hover,
+.btnUser2:hover {
+    background-color: red;
+    color: lightcoral;
+    border: 1px solid rgb(253, 0, 0);
+}
+
+
+.divCadaUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+.divCadaUser h1 {
+    animation: rainbow 12s infinite;
+}
+
+.divCadaUser>.btnUser2 a:hover {
+    color: #000000;
+}
+
+
+
+
+
+/* Tela de edição das infos do usuario */
+
+.ContainerEditMode {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    background: linear-gradient(180deg,
+            rgb(200, 189, 189) 20%,
+            rgba(180, 12, 12, 0.885) 50%,
+            rgba(41, 1, 1, 0.907) 80%);
+}
+
+.ContainerEditMode h1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cardEditMode {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.CardComponenteEditMode {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.CardComponenteEditMode label {
+    display: flex;
+    align-items: center;
+}
+
+.CardComponenteEditMode input {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.EditModeButtonComp>button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #a71717;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* text-align: center; */
+    width: 100%;
+}
+
+.EditModeButtonComp>button:hover {
+    background-color: #ff2f00;
+}
+
+/* PAGINA NOVA exibir pedidos individualmente */
+
+.ContainerExibirLista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: linear-gradient(180deg,
+            rgb(200, 189, 189) 20%,
+            rgba(180, 12, 12, 0.885) 50%,
+            rgba(41, 1, 1, 0.907) 80%);
+}
+
+.componente_superior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.componente_superior h1 {
+    margin-right: 20px;
+}
+
+.btnUser2 {
+    margin-right: 10px;
+}
+
+.ContExibirLista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 100%;
+
+}
+
+.CardExibirLista {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 21.875rem;
+    height: 21.875rem;
+    overflow: auto;
+}
+
+.ListaCompraPedidoUser {
+    padding: 10px;
+}
+
+.ListaCompraPedidoUser ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ListaCompraPedidoUser ul li {
+    margin-bottom: 5px;
+}
+
+.infosProdPedidosUser {
+    margin-top: 20px;
+}
+
+.infosProdPedidosUser p {
+    margin-bottom: 10px;
+}

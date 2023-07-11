@@ -1,0 +1,148 @@
+.ContainerUserPedidos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+    background: linear-gradient(to right, #b92b27, #1565c0);
+}
+
+.CardSelecioneUsuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CardSelecioneUsuario h2 {
+    padding: auto;
+    margin: auto;
+}
+
+.CardUserPedido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.ImageContentCardPedidos {
+    width: 9.375rem;
+    height: 9.375rem;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    /* adicionado */
+    flex-direction: column;
+    /* adicionado */
+}
+
+.ImageContentCardPedidos input {
+    display: none;
+}
+
+.ImageContentCardPedidos input:checked+.UserImage {
+    border: 3px solid red;
+}
+
+.UserImage {
+    width: 100%;
+    height: 100%;
+}
+
+.UserImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.UserName {
+    text-align: center;
+}
+
+
+.ContentCardProdutoPedido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.AlinhandoProdPedido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 90vw;
+}
+
+.InputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 90%;
+}
+
+.InputContainer label {
+    text-align: justify;
+    font-size: 1rem;
+    color: #f25142;
+}
+
+.InputContainer input,
+.InputContainer select {
+    text-align: justify;
+    font-size: 1rem;
+    color: black;
+    display: unset;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.ContainerUserPedidos button {
+
+    box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+    background: linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+    background-color: #fc8d83;
+    border-radius: 6px;
+    border: 1px solid #d83526;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #b23e35;
+}
+
+
+.ContainerUserPedidos button:hover {
+    background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+    background-color: #e4685d;
+}
+
+.ContainerUserPedidos button:active {
+    position: relative;
+    top: 1px;
+}
+
+.ContainerUserPedidos button {
+    margin: 10px;
+}
+
+.textColorInputProd {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 1rem;
+}

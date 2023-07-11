@@ -1,0 +1,204 @@
+.containerProduto {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 80vh;
+    row-gap: 15px;
+    padding: 10px;
+    background: linear-gradient(180deg,
+            rgb(200, 189, 189) 20%,
+            rgba(180, 12, 12, 0.885) 50%,
+            rgba(41, 1, 1, 0.907) 80%);
+
+
+}
+
+.cardProduto {
+    width: 25rem;
+    height: 450px;
+    background-color: #202020;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.imgProd {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imag-iconProd {
+    border: 2px solid rgb(24, 74, 212);
+    height: 60%;
+    width: 40%;
+    aspect-ratio: 16/9;
+    object-fit: scale-down;
+    border-radius: 20%;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.imag-iconProd:hover {
+    border: 3px solid rgb(2, 199, 248);
+}
+
+.text-princProd h3 {
+    font-size: 2.5rem;
+    animation: rotating-colors 5s linear infinite;
+}
+
+@keyframes rotating-colors {
+    0% {
+        color: rgb(2, 154, 73);
+    }
+
+    50% {
+        color: rgb(74, 255, 2);
+    }
+
+    100% {
+        color: rgb(166, 255, 0);
+    }
+}
+
+
+
+.textoProduto {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.buttonInProd {
+
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.btnProd1,
+.btnProd2 {
+    padding: 10px 30px;
+    font-family: Impact,
+        Haettenschweiler,
+        'Arial Narrow Bold',
+        sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    transition: 1s;
+    background-color: rgb(233, 113, 113);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnProd1:hover,
+.btnProd2:hover {
+    background-color: red;
+    color: lightcoral;
+    border: 1px solid rgb(253, 0, 0);
+}
+
+
+.divCadaProd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divCadaProd h1 {
+    animation: rainbow 12s infinite;
+}
+
+
+.divCadaProd>.btnProd a:hover {
+    color: #000000;
+}
+
+
+.ContainerCardEdit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.25rem;
+    height: 80vh;
+    background: linear-gradient(180deg,
+            rgb(200, 189, 189) 20%,
+            rgba(180, 12, 12, 0.885) 50%,
+            rgba(41, 1, 1, 0.907) 80%);
+}
+
+.ContainerCardEdit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.25rem;
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(180deg,
+            rgb(200, 189, 189) 20%,
+            rgba(180, 12, 12, 0.885) 50%,
+            rgba(41, 1, 1, 0.907) 80%);
+}
+
+.CabecalhoEditMode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin: 10px;
+    padding: 10px;
+}
+
+.CardEditMode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+}
+
+.CardEditModeChild {
+    width: 30rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 31px 1px rgba(0, 0, 0, 0.95);
+    border: 2px outset #b32525e0;
+    background: #2e1f1f38;
+}
+
+.InfosInputEditMode {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+
+.input-boxCadPro textarea {
+    height: 4em;
+    resize: none;
+    border-radius: 6px;
+}
